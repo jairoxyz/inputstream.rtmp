@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
   id="inputstream.rtmp"
-  version="3.3.0"
+  version="3.20.0"
   name="RTMP Input"
-  provider-name="spiff">
+  provider-name="spiff (ksv patches by JairoX)">
   <requires>@ADDON_DEPENDS@</requires>
   <extension
     point="kodi.inputstream"
     name="rtmp"
     protocols="rtmp|rtmpt|rtmpe|rtmpte|rtmps"
-    listitemprops="SWFPlayer|swfurl|PageURL|PlayPath|TcUrl|IsLive|swfvfy"
     library_@PLATFORM@="@LIBRARY_FILENAME@" />
   <extension point="xbmc.addon.metadata">
     <summary lang="de_DE">Client für RTMP-Streams</summary>
     <summary lang="en_GB">Client for RTMP streams</summary>
     <description lang="de_DE">Das Real Time Messaging Protocol (RTMP) ist ein proprietäres Netzwerkprotokoll, das von Adobe Inc. entwickelt wurde, um Audio-, Video- und andere Daten über das Internet von einem Medienserver zu einem Flash Player zu übertragen.
 
-Dieses Addon implementiert die RTMP-Streaming-Unterstützung für Kodi und installierte Add-Ons.</description>
+Dieses Addon implementiert die RTMP-Streaming-Unterstützung für Kodi und installierte Add-Ons mit Hilfe von einer K-S-V gepatchten librtmp.</description>
     <description lang="en_GB">The Real Time Messaging Protocol (RTMP) is a proprietary network protocol developed by Adobe Inc. to transmit audio, video and other data over the Internet from a media server to a flash player.
 
-This addon implements RTMP streaming support for Kodi and installed add-ons.</description>
+This addon implements RTMP streaming support for Kodi and installed add-ons using librtmp with K-S-V patches.</description>
     <platform>@PLATFORM@</platform>
+    <path>inputstream.rtmp+@PLATFORM@/inputstream.rtmp-3.3.0~ksv-@PLATFORM@.zip</path>
     <license>GPL-2.0-or-later</license>
     <source>https://github.com/xbmc/inputstream.rtmp</source>
     <assets>
