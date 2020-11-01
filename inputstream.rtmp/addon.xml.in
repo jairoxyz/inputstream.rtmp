@@ -20,7 +20,7 @@ Dieses Addon implementiert die RTMP-Streaming-Unterstützung für Kodi und insta
 
 This addon implements RTMP streaming support for Kodi and installed add-ons using librtmp with K-S-V patches.</description>
     <platform>@PLATFORM@</platform>
-    <path>inputstream.rtmp+@PLATFORM@/inputstream.rtmp-3.3.0~ksv-@PLATFORM@.zip</path>
+    <path>inputstream.rtmp+@PLATFORM@/inputstream.rtmp-3.3.0~ksv-@PLATFORM@-matrix.zip</path>
     <license>GPL-2.0-or-later</license>
     <source>https://github.com/xbmc/inputstream.rtmp</source>
     <assets>
